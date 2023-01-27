@@ -8,27 +8,31 @@
       rel="stylesheet"
       href="https://fonts.gogleapis.com/css?family=Trirong"
     />
-    <title>mi portafolio</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>Formulario dinamico</title>
   </head>
   <body>
     <form class="form">
-      <label class="form__label" for="nombre">Nombre</label>
-      <input
-        class="form_label_item"
-        type="text"
-        name="nombre"
-        placeholder="Escribe tu nombre"
-      />
-
-      <label class="form__label" for="apellidos">Apellidos</label>
-      <input
-        class="form_label_item"
-        type="text"
-        name="apellidos"
-        id="apellidos"
-        placeholder="1r Apellido"
-      />
-
+      <li>
+        <label class="form__label" for="nombre">Nombre</label>
+        <input
+          class="form_label_item"
+          type="text"
+          name="nombre"
+          placeholder="Escribe tu nombre"
+        />
+      </li>
+      <li>
+        <label class="form__label" for="apellidos">Apellidos</label>
+        <input
+          class="form_label_item"
+          type="text"
+          name="apellidos"
+          id="apellidos"
+          placeholder="1r Apellido"
+        />
+      </li>
+      <li></li>
       <label class="form__label" for="email">Email</label>
       <input
         class="form_label_item"
@@ -37,8 +41,8 @@
         id="email"
         placeholder="email"
         required
-      />
-
+      /></li>
+    <li>
       <label class="form__label" for="asunto">Asunto</label>
       <input
         class="form_label_item"
@@ -46,17 +50,18 @@
         name="asunto"
         id="asunto"
         placeholder="asunto"
-      />
-
+      /></li>
+    <li>
       <label class="form__label" for="mensaje">Mensaje</label>
       <textarea
         class="tarea"
         name="mensaje"
         for="mensaje"
         placeholder="envuia tu comentario aqui"
-      ></textarea>
-
+      ></textarea></li>
+      <li>
       <input class="submit" type="submit" name="enviar" value="enviar datos" />
+    </li>
     </form>
     <footer class="propiedad"><p>mildred lopez</p></footer>
   </body>
